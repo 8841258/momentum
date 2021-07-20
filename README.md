@@ -10,13 +10,14 @@
   이전에 버튼을 누를 때 깜빡했다가 사라지는 현상이 있었는데, event.preventDefault()를 사용하면 더이상 그런 현상이 생기지 않는다!
   
 - localStorage
-  브라우저에 기본적으로 저장할 수 있게 하는, 이른바 미니 DB이다. 유저 정보 저장시 유용
+  브라우저에 기본적으로 저장할 수 있게 하는, 이른바 미니 DB이다.
+  유저 정보 저장시 유용.
   개발자 도구 > application > localStorage
   .setItem("key", "value")  .getItem("key")  .removeItem("key")
   
 - 깔끔한 코드 작성법
   반복되는 String은 오타 방지를 위해 대문자 변수로 저장한다. 변수는 틀리면 콘솔창에서 알려주기 때문.
-  반복되는 부분은 함수로 따로 만들어준다. paintGreetings(username)
+  반복되는 부분은 함수로 따로 만들어준다. ex) paintGreetings(username).
   String과 변수의 결합은 백틱(`)을 사용하여 변수는 ${} 안에 넣어준다
   
 
