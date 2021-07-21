@@ -20,5 +20,10 @@
   반복되는 부분은 함수로 따로 만들어준다. ex) paintGreetings(username).
   String과 변수의 결합은 백틱(`)을 사용하여 변수는 ${} 안에 넣어준다
   
+  
+2. CLOCK (20210721)
+- Date object, padStart(a, b), setInterval(function, ms), String 이용.
+- date.getHours()와 같이 사용한다. 리턴 타입은 number, String으로 변환 잊지말자.
+- 문자열.padStart(맞춰줄 문자열 길이, 채울 문자열)으로 두자릿수를 구현!
 
 
